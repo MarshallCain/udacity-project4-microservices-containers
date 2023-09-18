@@ -1,4 +1,4 @@
-<include a CircleCI status badge, here>
+[![CircleCI](https://dl.circleci.com/status-badge/img/gh/MarshallCain/udacity-project4-microservices-containers/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/MarshallCain/udacity-project4-microservices-containers/tree/main)
 
 ## Project Overview
 
@@ -48,3 +48,19 @@ source .devops/bin/activate
 * Setup and Configure Kubernetes locally
 * Create Flask app in Container
 * Run via kubectl
+
+## Directory Structure
+
+| Directory/File | Description |
+| ---- | ----------- |
+| `.circleci/config.yml` | CircleCI configuration |
+| `model_data` | Trained model data for housing prices in Boston |
+| `output_txt_files` | Output logs for Docker and Kubernetes runs |
+| `app.py` | The main application file for housing prices in Boston |
+| `Dockerfile` | Dockerfile containing the application and its dependencies |
+| `make_prediction.sh` | Example Rest call for testing |
+| `Makefile` | Build file of the project |
+| `requirements.txt` | Python requirements file |
+| `run_docker.sh` | Shell script for building and running docker image |
+| `run_kubernetes.sh` | Shell script to deploy docker container on Kubernetes cluster |
+| `upload_docker.sh` | Shell script for uploading local docker image to dockerhub repository |

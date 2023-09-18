@@ -36,3 +36,11 @@ voclabs:~/environment/udacity-project4-microservices-containers (main) $ kubectl
 0     0  6.575  296.0     15.3  396.9   4.98
 [2023-09-18 12:30:45,936] INFO in app: output prediction: [20.35373177134412]
 127.0.0.1 - - [18/Sep/2023 12:30:45] "POST /predict HTTP/1.1" 200 -
+
+voclabs:~/environment/udacity-project4-microservices-containers (main) $ ./make_prediction.sh 
+Port: 8000
+{
+  "prediction": [
+    20.35373177134412
+  ]
+}
